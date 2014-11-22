@@ -1,7 +1,7 @@
 # {{ project_name|title }} Django Project #
 ## Prerequisites ##
 
-- python >= 2.5
+- python >= 2.7
 - pip
 - virtualenv/wrapper (optional)
 
@@ -43,7 +43,7 @@ vi {{ project_name }}/local_settings.py
 
 ### Sync database ###
 ```bash
-python manage.py syncdb
+python manage.py migrate
 ```
 
 ## Running ##
